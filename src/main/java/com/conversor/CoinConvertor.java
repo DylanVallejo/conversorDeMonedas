@@ -10,6 +10,9 @@ public class CoinConvertor {
 
         Coin setCoin = new Coin();
 
+        Coin coinWindow = new Coin();
+        coinWindow.setVisible(true);//making visible the window
+
         setCoin.quantity = 100;
 
 
