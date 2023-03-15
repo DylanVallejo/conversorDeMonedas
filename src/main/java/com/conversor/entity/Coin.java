@@ -5,7 +5,12 @@ import javax.swing.*;
 public class Coin  extends JFrame {
 
         public Coin () {
-                this.setSize( 500, 450 ); // SIZE of the winddow
+                setSize( 500, 450 ); // SIZE of the winddow
+                setDefaultCloseOperation(EXIT_ON_CLOSE);
+                setTitle("Coin converter");
+                setLocation(100,200);
+//                setBounds(100,200,500,450);
+//                setLocationRelativeTo(null); //establecer la ventana al centro de la pantalla
         }
 
         public double quantity;
